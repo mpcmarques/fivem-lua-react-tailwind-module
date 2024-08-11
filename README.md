@@ -15,17 +15,17 @@ Also they come with prettier and eslint configured.
 
 ## installing dependencies
 
-Clone the repository, run yarn on project folder
+Clone the repository, run yarn on ui folder
 
 ## development mode
 
 ### Full module
 
-open a terminal on project folder and run yarn dev (npm run dev)
+open a terminal on ui folder and run yarn dev (npm run dev)
 
 ### Run as a website
 
-open a terminal on project/ui folder and run yarn then yarn start
+open a terminal on ui folder and run yarn then yarn start
 
 ## building
 
