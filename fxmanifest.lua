@@ -9,7 +9,7 @@ version '1.0.0'
 lua54 'yes'
 
 client_script "client/*.lua"
-shared_script 'shared/*.lua'
+shared_scripts { '@ox_lib/init.lua', 'shared/*.lua' }
 server_scripts { '@oxmysql/lib/MySQL.ts', "server/*.lua" }
 
 ui_page "web/index.html"
