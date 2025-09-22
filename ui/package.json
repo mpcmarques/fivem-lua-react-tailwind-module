@@ -7,8 +7,8 @@
     "license": "MIT",
     "scripts": {
         "start": "vite",
-        "start:game": "vite build --watch",
-        "build": "tsc && vite build",
+        "start:game": "vite build --watch --emptyOutDir",
+        "build": "tsc && vite build --emptyOutDir",
         "preview": "vite preview"
     },
     "dependencies": {
